@@ -3,8 +3,8 @@ import Card from "../card/Card";
  
  
 const ContentCard = () => (
-    
-    <ul class="content-card">
+
+    <ul className="content-card">
         <Card />
     </ul>
 )

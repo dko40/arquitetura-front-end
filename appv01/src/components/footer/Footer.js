@@ -3,10 +3,10 @@ import React from "react";
 
 const Footer = () => (
 
-    <div class="footer">
-        <div class="text-footer">
+    <div className="footer">
+        <div className="text-footer">
             <h3>Trabalho de arquitetura front-end [ReactJS] </h3>
-            <p>
+            <p className="tsz2 m2">
                 Professor: Nélio Frazão,
                 Aluno: Adelson Ferreira Vieira
             </p>

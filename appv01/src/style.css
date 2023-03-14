@@ -4,6 +4,14 @@
    border:0;
   }
 
+.m1 {margin:5px}
+.m2 {margin:10px}
+.m3 {margin:10px}
+
+.tsz1 {font-size: 12px;}
+.tsz2 {font-size: 14px;}
+.tsz3 {font-size: 16px;}
+
 body {
     background-color:#25252c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
