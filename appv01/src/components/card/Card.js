@@ -14,7 +14,7 @@ const Card = () => (
         <p className="tsz1 m2"> Citadel of Ricks</p>
         <h4 className="m2">First seen in:</h4>
         <p className="tsz1 m2">The Ricklantis Mixup</p>
-            <div className="link-card  tsz1 m2"><a href="#">link do card</a></div>
+            <div className="link-card tsz1 m2"><a href="http://www.google.com.br">link do card</a></div>
         </div>
     </li>
 )
