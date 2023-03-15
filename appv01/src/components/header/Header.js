@@ -1,9 +1,9 @@
-import React from "react";
+import React from "react"; 
+import logo from './logo.png';
  
 const Header = () => (
-
     <div className="header">
-            <img src="./logo.png" alt="" className="logo"></img>
+            <img src={logo} alt="" className="logo"></img>
             <ul className="menu">
                 <li className="item-menu">Link 1</li>
                 <li className="item-menu">Link 2</li>
