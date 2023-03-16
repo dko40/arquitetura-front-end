@@ -1,5 +1,6 @@
 import React from "react"; 
 import { Outlet, Link } from "react-router-dom";
+ 
 import logo from './logo.png';
 
 const Layout = () => {
@@ -13,8 +14,13 @@ const Layout = () => {
         <li className="item-menu"><Link to="/contact">Contato</Link></li>
     </ul>            
     </div>
+    
  <Outlet />
-    </>
+ 
+     </>
+    
+   
+    
   )
 };
 
