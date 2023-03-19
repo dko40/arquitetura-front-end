@@ -1,9 +1,9 @@
 import ContentCard from "../content-card/ContentCard";
 
-const PageContact = () => {
+const PageHome = () => {
     return <div className="principal-content">
         <ContentCard />
     </div>
 };
 
-export default PageContact;
+export default PageHome;
