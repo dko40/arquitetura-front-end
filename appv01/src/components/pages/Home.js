@@ -1,8 +1,8 @@
-import ContentCard from "../content-card/ContentCard";
+import ContentCardHome from "../content-card-home/ContentCardHome";
 
 const PageHome = () => {
     return <div className="principal-content">
-        <ContentCard />
+        <ContentCardHome />
     </div>
 };
 

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-function ContentCard() {
+function ContentCardHome() {
   const [character, setCharacter] = useState([])
   useEffect(
     () => {
@@ -12,8 +13,9 @@ function ContentCard() {
     }, [])
   // console.log(character,"aki")
   return (
-
+     
     <ul className="content-card">
+     
       {character.map((x, index)=>(        
         <li key={index} className="card">
         <div className="image-card m1">
@@ -26,17 +28,11 @@ function ContentCard() {
           <b>Origin: </b>{x.origin.name}<br />
           <b>Type: </b>{x.type}<br />
           <b>Gender: </b>{x.gender}<br />
-          <div><a href={x.url}>Detalhes do personagem</a></div>
-        </div>
+          <Link to={`/character/${x.id}`}>Character details</Link>        
+          </div>
       </li>
-
-
       ))}
-      
-
-
     </ul>
   );
 }
-
-export default ContentCard;
+export default ContentCardHome;
