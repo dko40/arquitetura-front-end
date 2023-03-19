@@ -6,7 +6,7 @@
 
 .m1 {margin:5px}
 .m2 {margin:10px}
-.m3 {margin:10px}
+.m3 {margin:15px}
 
 .tsz1 {font-size: 12px;}
 .tsz2 {font-size: 14px;}
@@ -62,7 +62,7 @@ body {
 
 .card {
     width: 150px;
-     height: 500px;
+     height: 340px;
     background-color: #292d30;
     border: 1px solid #323232;
     padding: 10px;

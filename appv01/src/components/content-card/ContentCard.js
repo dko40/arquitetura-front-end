@@ -16,17 +16,17 @@ function ContentCard() {
     <ul className="content-card">
       {character.map((x, index)=>(        
         <li key={index} className="card">
-        <div className="image-card m2">
+        <div className="image-card m1">
           <img className="img-crd" src={x.image} alt="" />          
         </div>
-        <div className="conteudo-card">
-          <h3 className="m2">{x.name}</h3>
-          <h4 className="m2">Alive - Human</h4>
-          <h4 className="m2"> Last known location:</h4>
-          <p className="tsz1 m2"> Citadel of Ricks</p>
-          <h4 className="m2">First seen in:</h4>
-          <p className="tsz1 m2">The Ricklantis Mixup</p>
-          <div className="link-card tsz1 m2"><a href="http://www.google.com.br">link do card</a></div>
+        <div className="conteudo-card m1">
+          <h3>{x.name}</h3>
+          <b>Status: </b> {x.status} <br />
+          <b>Especie: </b>{x.species} <br />
+          <b>Origin: </b>{x.origin.name}<br />
+          <b>Type: </b>{x.type}<br />
+          <b>Gender: </b>{x.gender}<br />
+          <div><a href={x.url}>Detalhes do personagem</a></div>
         </div>
       </li>
 
