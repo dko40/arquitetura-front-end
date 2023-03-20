@@ -53,6 +53,15 @@ body {
      
 }
 
+.principal-content-2 { 
+     
+    width: 80%;
+    height:auto; 
+    margin: 0 auto;    
+    padding: 20px;
+     
+}
+
 .content-card {
     width: 100%;
      list-style-type: none;      

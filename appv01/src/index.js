@@ -7,6 +7,7 @@ import PageQuemSomos from "./components/pages/PageQuemSomos";
 import Home from "./components/pages/Home"; 
 import Footer from "./components/footer/Footer";
 import PageCharacter from "./components/pages/PageCharacter";
+import PageEpisode from "./components/pages/PageEpisode";
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
         <Route path="contact" element={<PageContact />} />
         <Route path="quem-somos" element={<PageQuemSomos />} />  
         <Route path="character/:id"  element={<PageCharacter/>} />   
+        <Route path="episode/:id"  element={<PageEpisode/>} />   
+        
         </Route>
       </Routes>
     </BrowserRouter>

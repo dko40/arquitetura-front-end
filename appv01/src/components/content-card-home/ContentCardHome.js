@@ -28,7 +28,9 @@ function ContentCardHome() {
           <b>Origin: </b>{x.origin.name}<br />
           <b>Type: </b>{x.type}<br />
           <b>Gender: </b>{x.gender}<br />
-          <Link to={`/character/${x.id}`}>Character details</Link>        
+          
+          <Link to={`/character/${x.id}`}>Character details</Link>   
+
           </div>
       </li>
       ))}
